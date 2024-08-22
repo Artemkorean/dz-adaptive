@@ -5,19 +5,27 @@
 }
 
 body{
-    background-color:aqua;
+    background-color:lightblue;
 }
 
 header{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin: 50px 0;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 form{
     text-align: center;
     height: 20px;
     margin-bottom: 30px;
+}
+
+.form-button{
+    background-color: rgb(98, 98, 245);
+    color: azure;
 }
 
 .container{
@@ -29,7 +37,6 @@ form{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid grey;
 }
 
 .formcard{
@@ -38,11 +45,15 @@ form{
     border: 1px solid grey;
     margin: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 10px;
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(118, 118, 158);
+    gap: 20px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .robotcard{
@@ -52,6 +63,10 @@ form{
     margin: 20px;
     text-align: center;
     border-radius: 20px;
+    background-color: rgb(118, 118, 158);
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .image{
@@ -65,6 +80,10 @@ h2{
 }
 
 input{
-    width: 100px;
-    height: 20px;
+    width: 200px;
+    height: 30px;
 }
+
+/* .robotcard:hover{
+    height: 470px;
+} */
